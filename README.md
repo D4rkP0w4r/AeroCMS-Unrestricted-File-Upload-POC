@@ -8,7 +8,9 @@
 ![image](https://user-images.githubusercontent.com/79050415/157001048-4deb194c-2a9c-437d-8eb6-5d6a1b452cf6.png)
 * Niceeee web shell active
 ![image](https://user-images.githubusercontent.com/79050415/157001142-334f5f43-cea9-4711-a56a-1b4494f118d3.png)
-
+# Vulnerable Code
+![image](https://user-images.githubusercontent.com/79050415/157260160-63a2424e-44d6-4571-a62d-a367f4c3520f.png)
+* No file checking before uploading
 # POC
 * `Injection Point` 
 ```c
